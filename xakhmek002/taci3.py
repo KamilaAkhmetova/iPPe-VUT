@@ -14,7 +14,7 @@ from Jump import Jump
 from Jumpifeq import Jumpifeq
 from Jumpiflt import Jumpiflt
 from Call import Call
-from Return import Return
+from xakhmek002.Return import Return
 from Push import Push
 from Pop import Pop
 

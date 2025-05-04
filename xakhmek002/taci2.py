@@ -135,7 +135,7 @@ class Interpreter:
             from Call import Call
             return Call(tac_element)
         elif opcode == 'RETURN':
-            from Return import Return
+            from xakhmek002.Return import Return
             return Return(tac_element)
         elif opcode == 'PUSH':
             from Push import Push
