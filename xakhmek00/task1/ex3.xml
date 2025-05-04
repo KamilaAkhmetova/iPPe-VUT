@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program name="Simple example of a program in IPPeCode">
+  <tac opcode="MOV" order="1">
+    <dst type="variable">counter</dst>
+    <src1 type="integer">0</src1>
+  </tac>
+  <tac opcode="READSTR" order="2">
+    <dst type="variable">Input</dst>
+  </tac>
+  <tac opcode="LABEL" order="3">
+    <dst type="label">@WHILE_</dst>
+  </tac>
+  <tac opcode="JUMPIFEQ" order="4">
+    <dst type="label">@End</dst>
+    <src1 type="variable">counter</src1>
+    <src2 type="integer">+3</src2>
+  </tac>
+  <tac opcode="PRINTLN" order="5">
+    <src1 type="variable">Input</src1>
+  </tac>
+  <tac opcode="ADD" order="6">
+    <dst type="variable">counter</dst>
+    <src1 type="variable">counter</src1>
+    <src2 type="integer">1</src2>
+  </tac>
+  <tac opcode="JUMP" order="7">
+    <dst type="label">@WHILE_</dst>
+  </tac>
+  <tac opcode="LABEL" order="8">
+    <dst type="label">@End</dst>
+  </tac>
+</program> 

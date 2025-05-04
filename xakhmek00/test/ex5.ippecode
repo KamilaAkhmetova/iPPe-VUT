@@ -1,0 +1,5 @@
+# Project introduction 1: Print numbers from 1 to 5 (using IPPeCode)
+MOV   n   0
+READINT y
+PRINT n
+PRINTLN 78

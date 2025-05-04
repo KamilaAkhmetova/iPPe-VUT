@@ -1,0 +1,9 @@
+# integer sign
+#comment1
+MOV   n   -56
+LABEL @START
+JUMPIFEQ  @END  n 5
+ADD n n 1
+PRINT n
+JUMP @START
+LABEL @END
