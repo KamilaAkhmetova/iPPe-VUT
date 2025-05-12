@@ -1,4 +1,0 @@
-#name
-MOV counter 0
-READSTR Input
-PRINTLN Input
